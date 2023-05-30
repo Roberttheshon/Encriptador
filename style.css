@@ -29,12 +29,12 @@ main{
     right: 250px;
     top: 10px;
     padding-left: 100px;
-    width: 500px;
+    width: 900px;
     height: 500px;
 }
 
 .cajaTexto{
-    width: 70%;
+    width: 80%;
     height: 85%;
     background-image: linear-gradient(164deg, rgba(49,49,49,0.15) 0%,transparent 44%),linear-gradient(97deg, rgba(49,49,49,0.15) 0%,transparent 40%),linear-gradient(265deg, rgba(49,49,49,0.15) 0%,transparent 30%),linear-gradient(316deg, rgba(49,49,49,0.15) 0%,transparent 78%),repeating-linear-gradient(38deg, rgba(140,140,140,0.1) 0px,transparent 3px),repeating-linear-gradient(100deg, rgba(140,140,140,0.1) 0px,transparent 3px),linear-gradient(90deg, rgb(241,194,117),rgb(241,194,117));
     cursor: pointer;
