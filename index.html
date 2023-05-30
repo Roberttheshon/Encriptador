@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador chanllenge</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/calavera.png" width="50px" alt="logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="contenedorCajaTexto">
+                <textarea placeholder="Ingrese el texto pirata" class="cajaTexto"></textarea>
+            </div>
+            <div class="alert">
+                <img src="imagenes/alerta.png" alt="alerta">
+                <p> <strong> Solo letras minusculas y sin acento </strong></p>
+            </div>
+            <div class="contenedorBotones">
+                <input type="button" class="btnEncriptar" value="Encriptar">
+                <input type="button" class="btnDesencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="contenedorMuneco">
+                <img src="imagenes/luffy.png" width="150px" alt="muneco">
+            </div>
+            <div class="contenedorParrafo">
+                <h3>Ningun mensaje fue <br> encontrado</h3>
+                <p>Ingrese el texto deses encriptar o<br> desencriptar</p>
+            </div>
+            <div class="contenedorBotones2">
+                <input type="button" class="btnCopiar" value="copiar">
+            </div>
+            <div class="contenedorResultado">
+                <p class="textoResultado"> </p>
+
+            </div>
+        </section> 
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
