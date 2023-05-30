@@ -10,10 +10,10 @@ body{
 header{
     background-color: rgb(72, 191, 251) ;
     width: 100%;
-    height: 60px;
+    height: 70px;
 }
 .logo{
-    padding-top: 5px;
+    padding-top: 10px;
     padding-left: 30px;
 }
 main{
@@ -26,11 +26,11 @@ main{
 
 .contenedorCajaTexto{
     position: absolute;
-    
+    right: 250px;
     top: 10px;
     padding-left: 100px;
-    width: 300px;
-    height: 400px;
+    width: 900px;
+    height: 500px;
 }
 
 .cajaTexto{
@@ -39,19 +39,19 @@ main{
     background-image: linear-gradient(164deg, rgba(49,49,49,0.15) 0%,transparent 44%),linear-gradient(97deg, rgba(49,49,49,0.15) 0%,transparent 40%),linear-gradient(265deg, rgba(49,49,49,0.15) 0%,transparent 30%),linear-gradient(316deg, rgba(49,49,49,0.15) 0%,transparent 78%),repeating-linear-gradient(38deg, rgba(140,140,140,0.1) 0px,transparent 3px),repeating-linear-gradient(100deg, rgba(140,140,140,0.1) 0px,transparent 3px),linear-gradient(90deg, rgb(241,194,117),rgb(241,194,117));
     cursor: pointer;
     color: #5c370e;
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 400;
     border-radius: 10px;
     
 }
 .cajaTexto::placeholder{
     color: rgb(92, 70, 19);
-    padding-left: 18px;
+    padding-left: 20px;
     
 }
 .alert{
     position: absolute;
-    top: 350px;
+    top: 450px;
     left: 100px;
     display: flex;
     color: black;
@@ -59,7 +59,7 @@ main{
                                      /* btotones de encriptar y desencriptar */
 .contenedorBotones{
     position: absolute;
-    top: 380px;
+    top: 480px;
     height: 80px;
     left: 80px;
     padding-top: 8px;
@@ -67,7 +67,7 @@ main{
                             
 .btnEncriptar{
     width: 300px;
-    height: 40px;
+    height: 50px;
     border-radius: 24px;
     background-color: rgb(123, 97, 33);
     color: rgb(255, 253, 253);
@@ -81,7 +81,7 @@ main{
 }
 .btnDesencriptar{
     width: 300px;
-    height: 40px;
+    height: 50px;
     border-radius: 24px;
     background-color: rgb(19, 172, 37);
     color: rgb(255, 255, 255);
@@ -107,9 +107,9 @@ main{
     position: relative;
     margin-top: 10px;
     padding-right: 20px;
-    right: 20px;
-    width: 200px;
-    height: 400px;
+    right: 80px;
+    width: 300px;
+    height: 450px;
     background-image: linear-gradient(227deg, rgba(37,37,37,0.2) 0%,transparent 8%),linear-gradient(125deg, rgba(37,37,37,0.2) 0%,transparent 58%),linear-gradient(321deg, rgba(37,37,37,0.2) 0%,transparent 47%),linear-gradient(130deg, rgba(37,37,37,0.2) 0%,transparent 23%),linear-gradient(270deg, rgba(60,60,60,0.95) 0%,transparent 1%),linear-gradient(90deg, rgba(56,56,56,0.95) 0%,transparent 1%),repeating-linear-gradient(236deg, rgba(140,140,140,0.1) 0px,transparent 4px),repeating-linear-gradient(90deg, rgba(140,140,140,0.1) 0px,transparent 4px),repeating-linear-gradient(277deg, rgba(140,140,140,0.1) 0px,transparent 4px),linear-gradient(90deg, rgb(241,194,117),rgb(241,194,117));
     box-sizing: border-box;
     border-radius: 32px;
@@ -120,49 +120,49 @@ main{
 
 .contenedorMuneco{
     position: absolute;
-    left: 40px;
+    left: 75px;
     box-sizing: border-box;
-    padding-top: 15px;
+    padding-top: 0px;
     
 }
 
 .contenedorParrafo{
     position: absolute;
     box-sizing: border-box;
-    top: 200px;
-    left: 10px;
+    top: 250px;
+    left: 50px;
 }
 .contenedorParrafo h3{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     text-align: center;
     
 }
 .contenedorParrafo p{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     
 }
 .contenedorResultado{
     color: #5c370e;
-    font-size: 180px;
+    font-size: 20px;
 }
 .contenedorBotones2{
     display: flex;
     position: absolute;
     left: 140px;
-    top: 250px;
+    top: 320px;
     
 
 }
 .btnCopiar{
-    width: 100px;
+    width: 200px;
     text-align: center;
-    height: 50px;
+    height: 60px;
     border-radius: 24px;
-    font-size: 15px;
+    font-size: 18px;
     display: flex;
     background-color: rgb(123, 97, 33);
     color: rgb(255, 255, 255);
