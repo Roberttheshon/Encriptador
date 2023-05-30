@@ -10,10 +10,10 @@ body{
 header{
     background-color: rgb(72, 191, 251) ;
     width: 100%;
-    height: 70px;
+    height: 60px;
 }
 .logo{
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 30px;
 }
 main{
@@ -26,10 +26,10 @@ main{
 
 .contenedorCajaTexto{
     position: absolute;
-    right: 250px;
+    right: 200px;
     top: 10px;
     padding-left: 100px;
-    width: 900px;
+    width: 750px;
     height: 500px;
 }
 
@@ -39,14 +39,14 @@ main{
     background-image: linear-gradient(164deg, rgba(49,49,49,0.15) 0%,transparent 44%),linear-gradient(97deg, rgba(49,49,49,0.15) 0%,transparent 40%),linear-gradient(265deg, rgba(49,49,49,0.15) 0%,transparent 30%),linear-gradient(316deg, rgba(49,49,49,0.15) 0%,transparent 78%),repeating-linear-gradient(38deg, rgba(140,140,140,0.1) 0px,transparent 3px),repeating-linear-gradient(100deg, rgba(140,140,140,0.1) 0px,transparent 3px),linear-gradient(90deg, rgb(241,194,117),rgb(241,194,117));
     cursor: pointer;
     color: #5c370e;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 400;
     border-radius: 10px;
     
 }
 .cajaTexto::placeholder{
     color: rgb(92, 70, 19);
-    padding-left: 20px;
+    padding-left: 18px;
     
 }
 .alert{
@@ -107,7 +107,7 @@ main{
     position: relative;
     margin-top: 10px;
     padding-right: 20px;
-    right: 80px;
+    right: 70px;
     width: 300px;
     height: 450px;
     background-image: linear-gradient(227deg, rgba(37,37,37,0.2) 0%,transparent 8%),linear-gradient(125deg, rgba(37,37,37,0.2) 0%,transparent 58%),linear-gradient(321deg, rgba(37,37,37,0.2) 0%,transparent 47%),linear-gradient(130deg, rgba(37,37,37,0.2) 0%,transparent 23%),linear-gradient(270deg, rgba(60,60,60,0.95) 0%,transparent 1%),linear-gradient(90deg, rgba(56,56,56,0.95) 0%,transparent 1%),repeating-linear-gradient(236deg, rgba(140,140,140,0.1) 0px,transparent 4px),repeating-linear-gradient(90deg, rgba(140,140,140,0.1) 0px,transparent 4px),repeating-linear-gradient(277deg, rgba(140,140,140,0.1) 0px,transparent 4px),linear-gradient(90deg, rgb(241,194,117),rgb(241,194,117));
